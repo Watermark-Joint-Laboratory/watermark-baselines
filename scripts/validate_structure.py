@@ -15,7 +15,7 @@ REQUIRED_ROOT = {
     "experiments",
     "docs",
 }
-REQUIRED_BASELINE_FILES = {"README.md", "upstream.md", "requirements.txt"}
+REQUIRED_BASELINE_FILES = {"README.md", "upstream.md", "upstream.json", "requirements.txt"}
 REQUIRED_BASELINE_DIRS = {"configs", "scripts", "src"}
 
 
