@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Models, datasets, caches and outputs
+data/
+datasets/
+models/
+checkpoints/
+cache/
+outputs/
+results/raw/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.arrow
+*.parquet
+
+.ipynb_checkpoints/

@@ -1,0 +1,36 @@
+name: Reproduction bug
+description: 报告安装、运行或结果不一致问题
+title: "[Bug]: "
+body:
+  - type: input
+    id: baseline
+    attributes:
+      label: Baseline
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and configuration
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and logs
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS、Python、PyTorch、Transformers、CUDA 和 GPU
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+name: Baseline reproduction
+description: 跟踪一个水印方法的导入与复现
+title: "[Baseline]: "
+body:
+  - type: input
+    id: method
+    attributes:
+      label: Method
+      description: 方法名称
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: 论文标题或链接
+    validations:
+      required: true
+  - type: input
+    id: upstream
+    attributes:
+      label: Official repository
+      description: 官方代码仓库链接
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: License checked
+        - label: Upstream commit fixed
+        - label: Environment reproduced
+        - label: Generation reproduced
+        - label: Detection reproduced
+        - label: Evaluation reproduced
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: 数据集、模型、负责人和已知问题
