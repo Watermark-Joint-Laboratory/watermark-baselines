@@ -8,11 +8,11 @@
 
 | Method | Paper | Venue | Generation | Detection | HumanEval | MBPP | C4 | Status |
 |---|---|---|:---:|:---:|:---:|:---:|:---:|---|
-| KGW | 待补充 | ICML 2023 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planned |
-| EXP | 待补充 | 待补充 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planned |
-| SWEET | 待补充 | 待补充 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planned |
-| DBW | 待补充 | 待补充 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planned |
-| REMARK-LLM | 待补充 | 待补充 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planned |
+| KGW | A Watermark for Large Language Models | ICML 2023 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Ready-to-fetch |
+| EXP | Robust Distortion-free Watermarks for Language Models | TMLR 2024 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Ready-to-fetch |
+| SWEET | Who Wrote this Code? Watermarking for Code Generation | ACL 2024 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Ready-to-fetch |
+| DBW | Entropy-aware Dynamic Bias Watermarking | Pattern Recognition 2026 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Metadata-only |
+| REMARK-LLM | REMARK-LLM | USENIX Security 2024 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Ready-to-fetch |
 
 状态定义：`Planned` → `Importing` → `Reproduced` → `Stable`。只有在干净环境中按 README 成功运行并由另一位组员复核后，才能标记为 `Stable`。
 
@@ -48,3 +48,14 @@ docs/           状态、环境和复现记录
 ## 许可证
 
 本仓库暂未声明统一许可证。每个 Baseline 必须在 `upstream.md` 中记录上游许可证；没有明确许可证的代码不得直接复制进本仓库。
+
+
+## 获取固定上游版本
+
+已登记的官方实现不会直接复制进本仓库。运行：
+
+```bash
+python scripts/fetch_upstream.py <kgw|exp|sweet|remark_llm>
+```
+
+脚本会把官方仓库检出到对应的 `src/upstream/`，并验证固定 commit。该目录已被忽略，不会意外重新分发无许可证代码。DBW 尚无公开官方代码，当前仅保存论文元数据。
