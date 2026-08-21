@@ -43,5 +43,10 @@ No result is marked reproduced yet. Record model revision, dataset revision, con
 ## Citation
 
 ```bibtex
-@article{kuditipudi2024robust,\n  title={Robust Distortion-free Watermarks for Language Models},\n  author={Kuditipudi, Rohith and Thickstun, John and Hashimoto, Tatsunori and Liang, Percy},\n  journal={Transactions on Machine Learning Research},\n  year={2024}\n}
+@article{kuditipudi2024robust,
+  title={Robust Distortion-free Watermarks for Language Models},
+  author={Kuditipudi, Rohith and Thickstun, John and Hashimoto, Tatsunori and Liang, Percy},
+  journal={Transactions on Machine Learning Research},
+  year={2024}
+}
 ```

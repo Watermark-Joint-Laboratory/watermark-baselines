@@ -41,5 +41,10 @@ No result is marked reproduced yet. Record model revision, dataset revision, con
 ## Citation
 
 ```bibtex
-@inproceedings{kirchenbauer2023watermark,\n  title={A Watermark for Large Language Models},\n  author={Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Katz, Jonathan and Miers, Ian and Goldstein, Tom},\n  booktitle={ICML},\n  year={2023}\n}
+@inproceedings{kirchenbauer2023watermark,
+  title={A Watermark for Large Language Models},
+  author={Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Katz, Jonathan and Miers, Ian and Goldstein, Tom},
+  booktitle={ICML},
+  year={2023}
+}
 ```

@@ -43,5 +43,10 @@ No result is marked reproduced yet. Record model revision, dataset revision, con
 ## Citation
 
 ```bibtex
-@inproceedings{zhang2024remark,\n  title={REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models},\n  author={Zhang, Ruisi and Hussain, Shehzeen Samarah and Neekhara, Paarth and Koushanfar, Farinaz},\n  booktitle={USENIX Security},\n  year={2024}\n}
+@inproceedings{zhang2024remark,
+  title={REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models},
+  author={Zhang, Ruisi and Hussain, Shehzeen Samarah and Neekhara, Paarth and Koushanfar, Farinaz},
+  booktitle={USENIX Security},
+  year={2024}
+}
 ```

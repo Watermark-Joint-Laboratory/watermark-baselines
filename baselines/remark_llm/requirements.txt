@@ -1,1 +1,8 @@
-torch\nnumpy\nmatplotlib\ndatasets\nnltk\nevaluate\nsafetensors\nsentencepiece\n
+torch
+numpy
+matplotlib
+datasets
+nltk
+evaluate
+safetensors
+sentencepiece

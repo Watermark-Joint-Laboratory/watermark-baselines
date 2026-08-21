@@ -43,5 +43,10 @@ No result is marked reproduced yet. Record model revision, dataset revision, con
 ## Citation
 
 ```bibtex
-@inproceedings{lee2024sweet,\n  title={Who Wrote this Code? Watermarking for Code Generation},\n  author={Lee, Taehyun and Hong, Seokhee and Ahn, Jaewoo and others},\n  booktitle={ACL},\n  year={2024}\n}
+@inproceedings{lee2024sweet,
+  title={Who Wrote this Code? Watermarking for Code Generation},
+  author={Lee, Taehyun and Hong, Seokhee and Ahn, Jaewoo and others},
+  booktitle={ACL},
+  year={2024}
+}
 ```

@@ -1,1 +1,2 @@
-# No canonical dependency manifest exists at the pinned upstream commit.\n# Record a clean, verified environment here before changing status to Reproduced.\n
+# No canonical dependency manifest exists at the pinned upstream commit.
+# Record a clean, verified environment here before changing status to Reproduced.

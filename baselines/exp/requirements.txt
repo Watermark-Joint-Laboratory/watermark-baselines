@@ -1,1 +1,2 @@
-# The official repository uses a conda explicit requirements file.\n# After fetching, run: conda create --name exp-watermark --file src/upstream/requirements.txt\n
+# The official repository uses a conda explicit requirements file.
+# After fetching, run: conda create --name exp-watermark --file src/upstream/requirements.txt

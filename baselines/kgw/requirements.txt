@@ -1,1 +1,6 @@
-gradio\nnltk\nscipy\ntorch\ntransformers\ntokenizers\n
+gradio
+nltk
+scipy
+torch
+transformers
+tokenizers
