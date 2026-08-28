@@ -1,0 +1,5 @@
+{
+  "repository": "https://github.com/OWNER/REPOSITORY.git",
+  "commit": "40_HEX_COMMIT_SHA",
+  "license": "SPDX_OR_NOASSERTION"
+}
